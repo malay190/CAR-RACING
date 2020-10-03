@@ -15,7 +15,7 @@ display.flip()
 
 carimg = image.load('download.png')
 
-def game_loop():
+def gam_loop():
     x = (length * 0.42)
     y = (height *0.72)
     move = 0
@@ -42,5 +42,5 @@ def game_loop():
         car(x,y)
         display.flip()
 
-game_loop()
+gam_loop()
 pygame.quit()
